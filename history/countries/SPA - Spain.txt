@@ -96,6 +96,7 @@ oob = "/1816/SPA_oob.txt"
 
 government = hms_government
 literacy = 0.13
+prestige = 20
 
 # Political reforms
 slavery = yes_slavery
