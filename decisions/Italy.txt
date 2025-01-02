@@ -305,4 +305,112 @@ political_decisions = {
 			set_country_flag = lateran_pacts_ok
 		}
 	}
+
+# More Imperialism
+
+	Italys_fate = {
+		potential = {
+			tag = SIC
+			NOT = {
+				check_variable = {
+					which = frstitades
+					value = 1
+				}
+			}
+		}
+
+		allow = {
+			prestige = 25
+		}
+
+		effect = {
+			prestige = 1
+			badboy = 5
+			set_variable = { 
+				which = frstitades
+				value = 1
+			}
+		}
+	}
+
+	Annexation_of_the_Austrian_and_French_dominions_First = {
+		potential = {
+			tag = SIC
+			check_variable = {
+				which = italysvar
+				value = 1
+			}
+		}
+
+		allow = {
+			check_variable = {
+				which = italysvar
+				value = 1
+			}
+			money = 10000
+		}
+
+		effect = {
+			prestige = 1
+			change_variable = {
+				which = italysvar
+				value = 2
+			}
+			money = -10000
+		}
+	}
+	Annexation_of_the_Austrian_and_French_dominions_Second = {
+		potential = {
+			tag = SIC
+			check_variable = {
+				which = italysvar
+				value = 1
+			}
+		}
+
+		allow = {
+			check_variable = {
+				which = italysvar
+				value = 1
+			}
+			money = 40000
+		}
+
+		effect = {
+			prestige = 1
+			change_variable = {
+				which = italysvar
+				value = 2
+			}
+			money = -40000
+		}
+	}	
+	Annexation_of_the_Austrian_and_French_dominions_Third = {
+		potential = {
+			tag = SIC
+			check_variable = {
+				which = italysvar
+				value = 1
+			}
+		}
+
+		allow = {
+			check_variable = {
+				which = italysvar
+				value = 1
+			}
+			money = 60000
+		}
+
+		effect = {
+			prestige = 1
+			change_variable = {
+				which = italysvar
+				value = 2
+			}
+			money = -60000
+		}
+	}
+
+
 }
