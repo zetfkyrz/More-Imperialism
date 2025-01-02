@@ -354,7 +354,7 @@ political_decisions = {
 			prestige = 1
 			change_variable = {
 				which = italysvar
-				value = 2
+				value = 1
 			}
 			money = -10000
 		}
@@ -364,14 +364,14 @@ political_decisions = {
 			tag = SIC
 			check_variable = {
 				which = italysvar
-				value = 1
+				value = 2
 			}
 		}
 
 		allow = {
 			check_variable = {
 				which = italysvar
-				value = 1
+				value = 2
 			}
 			money = 40000
 		}
@@ -380,7 +380,7 @@ political_decisions = {
 			prestige = 1
 			change_variable = {
 				which = italysvar
-				value = 2
+				value = 1
 			}
 			money = -40000
 		}
@@ -390,14 +390,14 @@ political_decisions = {
 			tag = SIC
 			check_variable = {
 				which = italysvar
-				value = 1
+				value = 4
 			}
 		}
 
 		allow = {
 			check_variable = {
 				which = italysvar
-				value = 1
+				value = 3
 			}
 			money = 60000
 		}
@@ -406,7 +406,7 @@ political_decisions = {
 			prestige = 1
 			change_variable = {
 				which = italysvar
-				value = 2
+				value = 1
 			}
 			money = -60000
 		}

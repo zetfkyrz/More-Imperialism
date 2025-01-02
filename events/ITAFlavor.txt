@@ -324,3 +324,38 @@ country_event = {
 		}
 	}
 }
+#Italys_fate_event
+country_event = {
+	fire_only_once = yes
+	id = 46500
+
+	trigger = {
+	tag = SIC
+	check_variable = { 
+		which = frstitades
+		value = 1
+	}
+
+	}
+	mean_time_to_happen =  {
+		months = 1
+	}
+	title = "EVTNAME46500"
+	desc = "EVTDESC46500"
+	picture = "marshrome"
+
+	option = {
+		name = "EVTOPTA46500" 
+		set_variable = {
+			which = italysvar
+			value = 0
+		}
+	}
+	option = {
+		name = "EVTOPTB46500" 
+		set_variable = {
+			which = italysvar
+			value = 1
+		}
+	}
+}
