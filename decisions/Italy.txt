@@ -340,6 +340,12 @@ political_decisions = {
 				which = italysvar
 				value = 1
 			}
+			NOT = {
+				check_variable = {
+					which = italysvar
+					value = 2
+				}
+			}
 		}
 
 		allow = {
@@ -366,6 +372,12 @@ political_decisions = {
 				which = italysvar
 				value = 2
 			}
+			NOT = {
+				check_variable = {
+					which = italysvar
+					value = 3
+				}
+			}
 		}
 
 		allow = {
@@ -390,7 +402,13 @@ political_decisions = {
 			tag = SIC
 			check_variable = {
 				which = italysvar
-				value = 4
+				value = 3
+			}
+			NOT = {
+				check_variable = {
+					which = italysvar
+					value = 4
+				}
 			}
 		}
 
