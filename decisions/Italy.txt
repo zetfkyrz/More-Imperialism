@@ -427,6 +427,22 @@ political_decisions = {
 				value = 1
 			}
 			money = -60000
+			747 ={
+			add_core = SIC
+			secede_province = SIC
+			}
+			745 ={
+			add_core = SIC
+			secede_province = SIC
+			}
+			744 ={
+			add_core = SIC
+			secede_province = SIC
+			}
+			748 ={
+			add_core = SIC
+			secede_province = SIC
+			}
 		}
 	}
 

@@ -8,6 +8,7 @@ political_decisions = {
 				who = ENG
 				value = -100
 			}
+			prestige = 25
 		}
 		effect = {
 			tech_school = "naval_tech_school"
