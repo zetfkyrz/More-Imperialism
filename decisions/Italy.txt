@@ -320,11 +320,11 @@ political_decisions = {
 		}
 
 		allow = {
-			prestige = 25
+			prestige = 20
 		}
 
 		effect = {
-			prestige = 1
+			prestige = 5
 			badboy = 5
 			set_variable = { 
 				which = frstitades
@@ -385,7 +385,7 @@ political_decisions = {
 				which = italysvar
 				value = 2
 			}
-			money = 40000
+			money = 30000
 		}
 
 		effect = {
@@ -394,7 +394,7 @@ political_decisions = {
 				which = italysvar
 				value = 1
 			}
-			money = -40000
+			money = -30000
 		}
 	}	
 	Annexation_of_the_Austrian_and_French_dominions_Third = {
@@ -417,7 +417,7 @@ political_decisions = {
 				which = italysvar
 				value = 3
 			}
-			money = 60000
+			money = 50000
 		}
 
 		effect = {
@@ -425,8 +425,13 @@ political_decisions = {
 			change_variable = {
 				which = italysvar
 				value = 1
+			} 
+			set_variable ={
+				which = italypohyu
+				value = 1
 			}
-			money = -60000
+
+			money = -50000
 			747 ={
 			add_core = SIC
 			secede_province = SIC
@@ -445,6 +450,47 @@ political_decisions = {
 			}
 		}
 	}
+Annexation_of_venice = {
+		potential = {
+			tag = SIC
+		}
 
+		allow = {
+			check_variable = {
+				which = italypohyu
+				value = 1
+			}
+			money = 50000
+		}
+
+		effect = {
+			prestige = 10
+			change_variable = {
+				which = italysvar
+				value = 1
+			}
+			money = -50000
+			729 ={
+			add_core = SIC
+			secede_province = SIC
+			}
+			733 ={
+			add_core = SIC
+			secede_province = SIC
+			}
+			732 ={
+			add_core = SIC
+			secede_province = SIC
+			}
+			730 ={
+			add_core = SIC
+			secede_province = SIC
+			}
+			731 ={
+			add_core = SIC
+			secede_province = SIC
+			}
+		}
+	}
 
 }
