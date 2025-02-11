@@ -490,6 +490,7 @@ Annexation_of_venice = {
 			add_core = SIC
 			secede_province = SIC
 			}
+			change_tag = RHE
 		}
 	}
 

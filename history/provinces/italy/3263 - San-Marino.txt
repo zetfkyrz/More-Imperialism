@@ -1,6 +1,8 @@
 owner = SMR
 controller = SMR
 add_core = SMR
+add_core = RpR
+add_core = RHE
 trade_goods = grain
 life_rating = 35
 terrain = deciduous_forest_mountains
